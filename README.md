@@ -5,11 +5,13 @@ Especificações das Classes:
 # 1. Cliente
    
 **Atributos Privados:**
+
 *nome
 *endereço
 *profissão
 
 **Métodos:**
+
 *Getters e setters para cada atributo.
 
 *exibirAtributos(): exibe na tela todos os atributos do cliente.
@@ -17,6 +19,7 @@ Especificações das Classes:
 # 2. Conta
    
 **Atributos Privados:**
+
 *número da agência
 *número da conta
 *saldo
