@@ -50,10 +50,3 @@ Métodos:
 criarConta(): Cria uma nova conta a partir das informações fornecidas pelo usuário.
 realizarOperacoes(): Realiza operações entre contas, como transferências.
 exibirSaldo(): Exibe o saldo de uma conta específica.
-
-Implementação e Utilização:
-O código-fonte em Java deve ser implementado seguindo as especificações acima. Utilize a função Scanner para interagir com o usuário e garantir a entrada correta de dados. O sistema deve oferecer um menu de operações para o usuário escolher as ações desejadas.
-
-Observação:
-Utilize tratamento de exceções para evitar entradas inválidas por parte do usuário.
-Utilize polimorfismo ao chamar o método exibirSaldo() para garantir a correta execução conforme o tipo de conta.
