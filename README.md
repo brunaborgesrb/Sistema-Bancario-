@@ -7,7 +7,9 @@ Especificações das Classes:
 **Atributos Privados:**
 
 •nome
+
 •endereço
+
 •profissão
 
 **Métodos:**
@@ -21,8 +23,11 @@ Especificações das Classes:
 **Atributos Privados:**
 
 •número da agência
+
 •número da conta
+
 •saldo
+
 •cliente (objeto do tipo Cliente)
 
 **Métodos:**
