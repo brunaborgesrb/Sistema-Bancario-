@@ -10,9 +10,7 @@ endereço
 profissão
 
 Métodos:
-
 Getters e setters para cada atributo.
-
 exibirAtributos(): exibe na tela todos os atributos do cliente.
 
 # 2. Conta
