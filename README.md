@@ -3,7 +3,7 @@ Este projeto tem como objetivo a implementação de um sistema bancário em Java
 
 Especificações das Classes:
 1. Cliente
-
+   
 Atributos Privados:
 nome
 endereço
@@ -14,6 +14,7 @@ Getters e setters para cada atributo.
 exibirAtributos(): exibe na tela todos os atributos do cliente.
 
 2. Conta
+   
 Atributos Privados:
 número da agência
 número da conta
@@ -28,6 +29,7 @@ transferencia(Conta contaDestino): recebe como parâmetro uma conta de destino e
 exibirSaldo(): apresenta uma mensagem de texto informando o nome do usuário e o saldo na conta.
 
 3. ContaPoupanca (Subclasse de Conta)
+   
 Atributo Adicional:
 taxaRendimento (valor fixo de 0.05)
 
@@ -35,6 +37,7 @@ Método Adicional:
 simularOperacao(int meses): recebe um número inteiro representando a quantidade de meses desejados para simular o rendimento da conta poupança. Retorna o rendimento do saldo atual de acordo com a taxa de rendimento.
 
 4. ContaCorrente (Subclasse de Conta)
+   
 Atributo Adicional:
 taxaManutencao (valor fixo de 50 reais)
 
@@ -42,6 +45,7 @@ Método Adicional:
 simularOperacao(int meses): recebe um número inteiro representando a quantidade de meses desejados para simular o valor de custo das operações da conta corrente. Retorna o saldo final após o decrescimento da taxa de manutenção mensal.
 
 5. TesteOperacoes
+   
 Atributos:
 listaClientes (ArrayList para armazenar todos os clientes criados)
 listaContas (ArrayList para armazenar todas as contas criadas)
